@@ -1,0 +1,74 @@
+{
+    "name": "CameraControlActions",
+    "maps": [
+        {
+            "name": "Freelook Camera",
+            "id": "70606707-4939-417e-a3ba-9a317ec5d43c",
+            "actions": [
+                {
+                    "name": "Mouselook XY",
+                    "type": "PassThrough",
+                    "id": "dd3d111d-a583-4158-b650-2d5309e07314",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mouse Zoom",
+                    "type": "PassThrough",
+                    "id": "507bfa75-beb7-4481-8b0c-362b00a759f1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mouse Left Button",
+                    "type": "Button",
+                    "id": "e33404df-f47e-4f6e-867a-d4666939366a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0bd2f908-0cb3-4fee-8947-f888bd1db5da",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouselook XY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f54aa6f-e02d-4d95-9d7f-98a423c5b719",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f5c67bd-5a5b-471f-9c55-5de7cca2b12f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Left Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
